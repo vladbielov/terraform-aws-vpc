@@ -25,7 +25,7 @@ tags    =   {
 ```
 ###  Please add the following code into module.tf file
 ```
-module "wordpress" {
+module "vpc" {
     source                      =   "./class5"
     region                      =   "${var.region}"
     cidr_block                  =   "${var.cidr_block}"       
